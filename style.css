@@ -1,0 +1,759 @@
+.hero-animation {
+  background-color: #2b2c30;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.hero-animation .div {
+  background-color: #2b2c30;
+  overflow: hidden;
+  width: 1472px;
+  height: 2877px;
+  position: relative;
+}
+
+.hero-animation .overlap {
+  position: absolute;
+  width: 2068px;
+  height: 2097px;
+  top: 1052px;
+  left: -362px;
+}
+
+.hero-animation .ellipse {
+  width: 200px;
+  height: 200px;
+  top: 0;
+  left: 1703px;
+  border-radius: 100px;
+  position: absolute;
+  background-color: #252528;
+  box-shadow: 15px 12px 6.6px #0000006b;
+  background-blend-mode: luminosity;
+}
+
+.hero-animation .overlap-group {
+  position: absolute;
+  width: 1114px;
+  height: 1013px;
+  top: 59px;
+  left: 0;
+}
+
+.hero-animation .ellipse-2 {
+  width: 200px;
+  height: 200px;
+  top: 90px;
+  left: 914px;
+  border-radius: 100px;
+  position: absolute;
+  background-color: #252528;
+  box-shadow: 15px 12px 6.6px #0000006b;
+  background-blend-mode: luminosity;
+}
+
+.hero-animation .ellipse-3 {
+  width: 700px;
+  height: 700px;
+  top: 0;
+  left: 0;
+  border-radius: 350px;
+  position: absolute;
+  background-color: #252528;
+  box-shadow: 15px 12px 6.6px #0000006b;
+  background-blend-mode: luminosity;
+}
+
+.hero-animation .text-wrapper {
+  position: absolute;
+  width: 467px;
+  height: 65px;
+  top: 478px;
+  left: 435px;
+  font-family: "Cabin-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 19px;
+  letter-spacing: 1.52px;
+  line-height: 64.6px;
+  white-space: nowrap;
+}
+
+.hero-animation .p {
+  position: absolute;
+  width: 467px;
+  height: 65px;
+  top: 948px;
+  left: 431px;
+  font-family: "Cabin-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 19px;
+  letter-spacing: 1.52px;
+  line-height: 64.6px;
+  white-space: nowrap;
+}
+
+.hero-animation .image {
+  position: absolute;
+  width: 578px;
+  height: 350px;
+  top: 599px;
+  left: 431px;
+  object-fit: cover;
+}
+
+.hero-animation .img {
+  position: absolute;
+  width: 578px;
+  height: 350px;
+  top: 127px;
+  left: 431px;
+  object-fit: cover;
+}
+
+.hero-animation .overlap-2 {
+  position: absolute;
+  width: 1919px;
+  height: 1911px;
+  top: 186px;
+  left: 149px;
+}
+
+.hero-animation .ellipse-4 {
+  width: 200px;
+  height: 200px;
+  top: 317px;
+  left: 886px;
+  border-radius: 100px;
+  position: absolute;
+  background-color: #252528;
+  box-shadow: 15px 12px 6.6px #0000006b;
+  background-blend-mode: luminosity;
+}
+
+.hero-animation .ellipse-5 {
+  width: 200px;
+  height: 200px;
+  top: 933px;
+  left: 231px;
+  border-radius: 100px;
+  position: absolute;
+  background-color: #252528;
+  box-shadow: 15px 12px 6.6px #0000006b;
+  background-blend-mode: luminosity;
+}
+
+.hero-animation .ellipse-6 {
+  width: 200px;
+  height: 200px;
+  top: 950px;
+  left: 892px;
+  border-radius: 100px;
+  position: absolute;
+  background-color: #252528;
+  box-shadow: 15px 12px 6.6px #0000006b;
+  background-blend-mode: luminosity;
+}
+
+.hero-animation .ellipse-7 {
+  width: 200px;
+  height: 200px;
+  top: 1263px;
+  left: 892px;
+  border-radius: 100px;
+  position: absolute;
+  background-color: #252528;
+  box-shadow: 15px 12px 6.6px #0000006b;
+  background-blend-mode: luminosity;
+}
+
+.hero-animation .ellipse-8 {
+  width: 700px;
+  height: 700px;
+  top: 450px;
+  left: 1219px;
+  border-radius: 350px;
+  position: absolute;
+  background-color: #252528;
+  box-shadow: 15px 12px 6.6px #0000006b;
+  background-blend-mode: luminosity;
+}
+
+.hero-animation .ellipse-9 {
+  width: 700px;
+  height: 700px;
+  top: 1211px;
+  left: 0;
+  border-radius: 350px;
+  position: absolute;
+  background-color: #252528;
+  box-shadow: 15px 12px 6.6px #0000006b;
+  background-blend-mode: luminosity;
+}
+
+.hero-animation .image-2 {
+  position: absolute;
+  width: 511px;
+  height: 350px;
+  top: 0;
+  left: 1026px;
+  transition: all 0.2s ease-in-out;
+  object-fit: cover;
+}
+
+.hero-animation .text-wrapper-2 {
+  position: absolute;
+  width: 467px;
+  height: 65px;
+  top: 351px;
+  left: 1026px;
+  font-family: "Cabin-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 19px;
+  letter-spacing: 1.52px;
+  line-height: 64.6px;
+  white-space: nowrap;
+}
+
+.hero-animation .i-codded-a-sofa {
+  position: absolute;
+  width: 467px;
+  height: 65px;
+  top: 821px;
+  left: 1026px;
+  font-family: "Cabin-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 19px;
+  letter-spacing: 1.52px;
+  line-height: 64.6px;
+  white-space: nowrap;
+}
+
+.hero-animation .image-3 {
+  position: absolute;
+  width: 511px;
+  height: 350px;
+  top: 472px;
+  left: 1026px;
+  object-fit: cover;
+}
+
+.hero-animation .vector {
+  position: absolute;
+  width: 1438px;
+  height: 9px;
+  top: 925px;
+  left: 213px;
+  mix-blend-mode: darken;
+}
+
+.hero-animation .vector-2 {
+  position: absolute;
+  width: 1472px;
+  height: 9px;
+  top: 925px;
+  left: 213px;
+  mix-blend-mode: darken;
+}
+
+.hero-animation .rectangle {
+  position: absolute;
+  width: 577px;
+  height: 313px;
+  top: 1020px;
+  left: 282px;
+  background-color: #393b42;
+  border-radius: 108px;
+}
+
+.hero-animation .rectangle-2 {
+  position: absolute;
+  width: 577px;
+  height: 313px;
+  top: 1020px;
+  left: 982px;
+  background-color: #393b42;
+  border-radius: 108px;
+}
+
+.hero-animation .rectangle-3 {
+  position: absolute;
+  width: 358px;
+  height: 172px;
+  top: 1363px;
+  left: 372px;
+  background-color: #393b42;
+  border-radius: 51px;
+}
+
+.hero-animation .LETS-MAKE-SOMETHING {
+  position: absolute;
+  width: 329px;
+  height: 131px;
+  top: 1140px;
+  left: 431px;
+  text-shadow: 3px 2px 0px #00000040;
+  font-family: "Bree Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+
+.hero-animation .span {
+  color: #ffffff;
+}
+
+.hero-animation .text-wrapper-3 {
+  color: #aaef66;
+}
+
+.hero-animation .text-wrapper-4 {
+  font-family: "Courier Prime-Regular", Helvetica;
+  color: #aaef66;
+}
+
+.hero-animation .START-BY-SAYING-HI {
+  position: absolute;
+  width: 273px;
+  height: 74px;
+  top: 1417px;
+  left: 415px;
+  text-shadow: 3px 2px 0px #00000040;
+  font-family: "Bree Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 84.9px;
+  white-space: nowrap;
+}
+
+.hero-animation .gmail {
+  position: absolute;
+  height: 85px;
+  top: 1097px;
+  left: 1020px;
+  text-shadow: 3px 2px 0px #00000040;
+  font-family: "Bree Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 84.9px;
+  white-space: nowrap;
+}
+
+.hero-animation .text-wrapper-5 {
+  color: #aaef66;
+  font-size: 19px;
+  letter-spacing: 1.52px;
+  line-height: 64.6px;
+}
+
+.hero-animation .linked-in-www {
+  position: absolute;
+  width: 535px;
+  height: 85px;
+  top: 1158px;
+  left: 1020px;
+  text-shadow: 3px 2px 0px #00000040;
+  font-family: "Bree Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 84.9px;
+}
+
+.hero-animation .ellipse-10 {
+  width: 200px;
+  height: 200px;
+  top: 1652px;
+  left: 1618px;
+  border-radius: 100px;
+  position: absolute;
+  background-color: #252528;
+  box-shadow: 15px 12px 6.6px #0000006b;
+  background-blend-mode: luminosity;
+}
+
+.hero-animation .text-wrapper-6 {
+  position: absolute;
+  width: 227px;
+  height: 72px;
+  top: 58px;
+  left: 981px;
+  font-family: "Bree Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 43px;
+  letter-spacing: 3.44px;
+  line-height: 146.1px;
+  white-space: nowrap;
+}
+
+.hero-animation .PHONE-NO-wrapper {
+  position: absolute;
+  width: 358px;
+  height: 172px;
+  top: 1549px;
+  left: 1241px;
+  background-color: #393b42;
+  border-radius: 51px;
+}
+
+.hero-animation .PHONE-NO {
+  position: absolute;
+  width: 305px;
+  height: 74px;
+  top: 54px;
+  left: 26px;
+  text-shadow: 3px 2px 0px #00000040;
+  font-family: "Bree Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 84.9px;
+  white-space: nowrap;
+}
+
+.hero-animation .overlap-3 {
+  position: absolute;
+  width: 1590px;
+  height: 1095px;
+  top: -68px;
+  left: -91px;
+}
+
+.hero-animation .overlap-4 {
+  position: absolute;
+  width: 1590px;
+  height: 1095px;
+  top: 0;
+  left: 0;
+}
+
+.hero-animation .hero-balls {
+  position: absolute;
+  width: 1590px;
+  height: 755px;
+  top: 0;
+  left: 0;
+}
+
+.hero-animation .ellipse-11 {
+  width: 200px;
+  height: 200px;
+  top: 60px;
+  left: 0;
+  border-radius: 100px;
+  position: absolute;
+  background-color: #252528;
+  box-shadow: 15px 12px 6.6px #0000006b;
+  background-blend-mode: luminosity;
+}
+
+.hero-animation .overlap-group-2 {
+  position: absolute;
+  width: 554px;
+  height: 475px;
+  top: 280px;
+  left: 120px;
+}
+
+.hero-animation .ellipse-12 {
+  width: 200px;
+  height: 200px;
+  top: 0;
+  left: 307px;
+  border-radius: 100px;
+  position: absolute;
+  background-color: #252528;
+  box-shadow: 15px 12px 6.6px #0000006b;
+  background-blend-mode: luminosity;
+}
+
+.hero-animation .ellipse-13 {
+  width: 200px;
+  height: 200px;
+  top: 275px;
+  left: 0;
+  border-radius: 100px;
+  position: absolute;
+  background-color: #252528;
+  box-shadow: 15px 12px 6.6px #0000006b;
+  background-blend-mode: luminosity;
+}
+
+.hero-animation .component {
+  position: absolute;
+  width: 474px;
+  height: 232px;
+  top: 100px;
+  left: 80px;
+}
+
+.hero-animation .mask-group {
+  position: absolute;
+  width: 280px;
+  height: 41px;
+  top: 43px;
+  left: 0;
+}
+
+.hero-animation .mask-group-2 {
+  width: 402px;
+  height: 43px;
+  top: 101px;
+  position: absolute;
+  left: 0;
+}
+
+.hero-animation .mask-group-3 {
+  width: 438px;
+  height: 39px;
+  top: 178px;
+  position: absolute;
+  left: 0;
+}
+
+.hero-animation .ellipse-14 {
+  width: 200px;
+  height: 200px;
+  top: 0;
+  left: 1390px;
+  border-radius: 100px;
+  position: absolute;
+  background-color: #252528;
+  box-shadow: 15px 12px 6.6px #0000006b;
+  background-blend-mode: luminosity;
+}
+
+.hero-animation .text-wrapper-7 {
+  position: absolute;
+  width: 407px;
+  height: 85px;
+  top: 70px;
+  left: 126px;
+  font-family: "Bree Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 84.9px;
+}
+
+.hero-animation .projects {
+  position: absolute;
+  width: 195px;
+  height: 85px;
+  top: 71px;
+  left: 665px;
+}
+
+.hero-animation .text-wrapper-8 {
+  position: absolute;
+  width: 195px;
+  height: 85px;
+  top: -1px;
+  left: 0;
+  font-family: "Bree Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 84.9px;
+}
+
+.hero-animation .about {
+  top: 71px;
+  left: 992px;
+  position: absolute;
+  width: 140px;
+  height: 85px;
+}
+
+.hero-animation .text-wrapper-9 {
+  top: -1px;
+  left: 0;
+  font-family: "Bree Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 84.9px;
+  position: absolute;
+  width: 140px;
+  height: 85px;
+}
+
+.hero-animation .experience {
+  top: 71px;
+  left: 1264px;
+  position: absolute;
+  width: 264px;
+  height: 85px;
+}
+
+.hero-animation .text-wrapper-10 {
+  top: -1px;
+  left: 0;
+  font-family: "Bree Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 84.9px;
+  position: absolute;
+  width: 264px;
+  height: 85px;
+}
+
+.hero-animation .vector-3 {
+  position: absolute;
+  width: 1440px;
+  height: 9px;
+  top: 1086px;
+  left: 91px;
+  mix-blend-mode: darken;
+}
+
+.hero-animation .vector-4 {
+  position: absolute;
+  width: 1472px;
+  height: 9px;
+  top: 1086px;
+  left: 91px;
+  mix-blend-mode: darken;
+}
+
+.hero-animation .component-2 {
+  position: absolute;
+  width: 709px;
+  height: 620px;
+  top: 221px;
+  left: 764px;
+}
+
+.hero-animation .arnav-profile-pic {
+  position: absolute;
+  width: 335px;
+  height: 689px;
+  top: 401px;
+  left: 921px;
+  object-fit: cover;
+}
+
+.hero-animation .overlap-wrapper {
+  position: absolute;
+  width: 237px;
+  height: 97px;
+  top: 841px;
+  left: 139px;
+}
+
+.hero-animation .overlap-5 {
+  position: relative;
+  height: 97px;
+}
+
+.hero-animation .rectangle-4 {
+  position: absolute;
+  width: 211px;
+  height: 97px;
+  top: 0;
+  left: 26px;
+  background-color: #25262a;
+  border-radius: 31px;
+}
+
+.hero-animation .element {
+  position: absolute;
+  width: 162px;
+  height: 80px;
+  top: 9px;
+  left: 0;
+}
+
+.hero-animation .text-wrapper-11 {
+  transition: all 5s ease-in;
+  position: absolute;
+  width: 162px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter-ExtraLight", Helvetica;
+  font-weight: 200;
+  color: #aaef66;
+  font-size: 59.5px;
+  text-align: center;
+  letter-spacing: 0.59px;
+  line-height: normal;
+}
+
+.hero-animation .div-wrapper {
+  top: 8px;
+  left: 122px;
+  position: absolute;
+  width: 105px;
+  height: 81px;
+}
+
+.hero-animation .text-wrapper-12 {
+  top: -1px;
+  left: 0;
+  font-family: "Cabin-Regular", Helvetica;
+  font-weight: 400;
+  color: #aaef66;
+  font-size: 19px;
+  letter-spacing: 1.52px;
+  line-height: 64.6px;
+  position: absolute;
+  width: 105px;
+  height: 81px;
+}
+
+.hero-animation .tabler-plus {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 9px;
+  left: 116px;
+}
+
+.hero-animation .overlap-group-wrapper {
+  position: absolute;
+  width: 237px;
+  height: 97px;
+  top: 841px;
+  left: 442px;
+}
+
+.hero-animation .text-wrapper-13 {
+  position: absolute;
+  width: 162px;
+  top: -1px;
+  left: 0;
+  font-family: "Inter-ExtraLight", Helvetica;
+  font-weight: 200;
+  color: #aaef66;
+  font-size: 59.5px;
+  text-align: center;
+  letter-spacing: 0.59px;
+  line-height: normal;
+}
+
+.hero-animation .vector-5 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 16px;
+  left: 123px;
+}
